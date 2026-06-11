@@ -10,6 +10,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Demo Video](#demo-video)
 - [Architecture](#architecture)
 - [Execution Flow](#execution-flow)
 - [Tool Design](#tool-design)
@@ -50,6 +51,25 @@ A conversational agentic AI system where an RM types a natural language query an
 | Database | SQLite + SQLAlchemy ORM |
 | Frontend | React 18 + Vite + Tailwind CSS |
 | Containerization | Docker + docker-compose |
+
+---
+
+## 🎬 Demo Video
+
+> Full walkthrough of the system — architecture, live demo of all 3 scenarios, and design trade-offs.
+
+| | |
+|---|---|
+| **Duration** | 8 minutes |
+| **Platform** | Google Drive |
+| **Link** | [▶ Watch Demo Video](https://drive.google.com/file/d/1dNOpBoLD2xhnCtq7cgqOvGz8GuQKyEy-/view?usp=sharing) |
+
+### What the demo covers:
+- System architecture walkthrough (LangGraph, scoring engine, tools)
+- Scenario 1: Full pipeline — find leads + generate WhatsApp messages
+- Scenario 2: Filtered query + follow-up context handling
+- Scenario 3: Single customer deep dive + comparison reasoning
+- Design decisions and trade-offs
 
 ---
 
